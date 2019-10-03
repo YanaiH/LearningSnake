@@ -49,7 +49,7 @@ namespace Experiments
     }
     class Program
     {
-        static void Main2(string[] args)
+        static void Main(string[] args)
         {
             experiments.input();
 
