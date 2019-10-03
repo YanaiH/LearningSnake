@@ -6,7 +6,7 @@ namespace learningSnakeV2
 {
     class turtleControl
     {
-        static void Main()
+        static void Main2()
         {
             Turtle trtl = new Turtle();
             trtl.TailDown();

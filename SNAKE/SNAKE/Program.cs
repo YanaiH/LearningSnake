@@ -10,6 +10,7 @@ namespace Experiments
     {
         public static void input()
         {
+            Console.CursorVisible = false;
             int xpos = Console.WindowWidth / 2, ypos = Console.WindowHeight / 2;
             Console.SetCursorPosition(xpos, ypos);
             while (true)
