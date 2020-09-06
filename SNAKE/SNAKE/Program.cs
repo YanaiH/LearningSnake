@@ -47,12 +47,23 @@ namespace Experiments
             }
         }
 
+        public static void readInput()
+        {
+            while (true)
+            {
+                if (Console.ReadKey().Key == ConsoleKey.G)
+                {
+                    Console.WriteLine("great");
+                }
+            }
+        }
+
     }
     class Program
     {
         static void Main(string[] args)
         {
-            experiments.input();
+            experiments.readInput();
 
         }
 
